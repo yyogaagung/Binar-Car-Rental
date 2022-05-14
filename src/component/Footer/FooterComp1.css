@@ -1,0 +1,64 @@
+footer{
+    /* background-color: aquamarine; */
+    position:relative;
+    height: 145px;
+}
+
+.wrap-footer-content{
+    position: absolute;    
+    z-index: -9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    top: 150px;
+}
+
+footer .content-1{
+    width: 25%;
+    /* background-color: aqua; */
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer .content-2{
+    width: 15%;
+    /* background-color: aqua; */
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+li{
+    font-size: 14px;
+    list-style: none;
+}
+footer .content-3{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.medsos{
+    width: 15%;
+    height: 140px;
+    /* background-color: rgb(153, 127, 255); */
+}
+
+.medsos p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+
+.copyright{
+    width: 15%;
+    height: 140px;
+    /* background-color: rgb(131, 125, 157); */
+}
+
+.copyright li {
+    line-height: 140px;
+}

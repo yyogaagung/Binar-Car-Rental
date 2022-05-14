@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.panjangNav {
+  position: fixed;
+  z-index: 999;
+  background-color: #F1F3FF;
+  border-bottom: 1px solid #ccc;
+}
+.panjangNav .container-fluid .style-logo {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #0D28A6;
+  margin-left: 20px;
+  /* border-bottom: 1px solid #0D28A6; */
+}
+.panjangNav .container-fluid .style-logo::before {
+  content: "";
+  width: 80px;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #000;
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+  left: 50px;
+}
+.panjangNav .container-fluid #navbarNav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.panjangNav .container-fluid #navbarNav ul {
+  padding-top: 20px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.panjangNav .container-fluid #navbarNav ul li a {
+  color: #000;
+  font-size: 18px;
+}
+.panjangNav .container-fluid #navbarNav ul li #administrasi-menu {
+  background-color: #5CB85F;
+  color: #F1F3FF;
+  font-weight: 400;
+  border-radius: 7px;
+  padding: 4px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
